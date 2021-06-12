@@ -6,6 +6,8 @@ import BookCard from '../../components/bookCard';
 import { Marginer } from '../../components/marginer';
 import Navbar from '../../components/navbar';
 import { SCREENS } from '../../responsive';
+import AboutUs from './aboutUs';
+import BookingSteps from './bookingSteps';
 import { TopSection } from './topSection';
 
 
@@ -17,6 +19,10 @@ export default function HomePage() {
             <TopSection/>
             <Marginer direction="vertical" margin={isMobile ? "2em":"4em"} />
             <BookCard/>
+            <Marginer direction="vertical" margin={isMobile ? "2em":"8em"} />
+            <BookingSteps/>
+            <Marginer direction="vertical" margin={isMobile ? "2em":"8em"} />
+            <AboutUs/>
         </PageContainer>
     )
 }
