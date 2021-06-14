@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { faCalendarAlt, faCaretDown, faCaretUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 import tw from 'twin.macro';
 import { Marginer } from '../marginer';
 import Button from '../button'

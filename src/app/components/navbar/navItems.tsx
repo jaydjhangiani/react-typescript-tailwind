@@ -16,16 +16,16 @@ export default function NavItems() {
                 <Menu right styles={menuStyles}>
                   <ListContainer>
                     <NavItem menu>
-                      <a href="#">Home</a>
+                    <span>Home</span>
                     </NavItem>
                     <NavItem menu>
-                      <a href="#">Cars</a>
+                    <span>Cars</span>
                     </NavItem>
                     <NavItem menu>
-                      <a href="#">Services</a>
+                    <span>Services</span>
                     </NavItem>
                     <NavItem menu>
-                      <a href="#">Contact Us</a>
+                    <span>Contact Us</span>
                     </NavItem>
                   </ListContainer>
                 </Menu>
@@ -35,16 +35,16 @@ export default function NavItems() {
     return (
         <ListContainer>
             <NavItem>
-                <a href="">Home</a>
+                <span>Home</span>
             </NavItem>
             <NavItem>
-                <a href="">Cars</a>
+                <span>Cars</span>
             </NavItem>
             <NavItem>
-                <a href="">Services</a>
+                <span>Services</span>
             </NavItem>
             <NavItem>
-                <a href="">Contact Us</a>
+                <span>Contact Us</span>
             </NavItem>
         </ListContainer>
     )

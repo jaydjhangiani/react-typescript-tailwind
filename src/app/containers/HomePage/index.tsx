@@ -8,7 +8,9 @@ import Navbar from '../../components/navbar';
 import { SCREENS } from '../../responsive';
 import AboutUs from './aboutUs';
 import BookingSteps from './bookingSteps';
+import TopCars from './topCars';
 import { TopSection } from './topSection';
+import Footer from '../../components/footer'
 
 
 export default function HomePage() {
@@ -23,6 +25,9 @@ export default function HomePage() {
             <BookingSteps/>
             <Marginer direction="vertical" margin={isMobile ? "2em":"8em"} />
             <AboutUs/>
+            <Marginer direction="vertical" margin={isMobile ? "2em":"8em"} />
+            <TopCars/>
+            <Footer/>
         </PageContainer>
     )
 }
